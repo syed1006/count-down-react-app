@@ -1,0 +1,34 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(128, 155, 128);
+}
+
+header{
+  background-color: beige;
+  box-shadow: 0 0 20px grey;
+  padding: 10px 0;
+  height: 70px;
+}
+.container{
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container>input{
+  font-size: 2rem;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.container>div{
+ font-size: 4rem;
+ color: red;
+}
